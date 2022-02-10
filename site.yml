@@ -1,0 +1,10 @@
+---
+- name: System
+  hosts: win
+  become: yes
+
+
+  tasks:
+  - name:
+    ping:
+
