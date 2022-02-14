@@ -1,10 +1,10 @@
 ---
 - name: System
-  hosts: win
+  hosts: all
   become: yes
 
 
   tasks:
   - name:
-    ping:
+    win_ping:
 
